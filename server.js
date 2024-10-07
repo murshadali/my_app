@@ -49,7 +49,7 @@ io.on('connection', (socket) => {
 });
 
 // Start the HTTP server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
   console.log(`HTTP server running on port ${PORT}`);
 });
